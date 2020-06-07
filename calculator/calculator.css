@@ -1,0 +1,42 @@
+.Calculator {
+    width: 60%;
+    margin: 16px auto; 
+    box-shadow: 0 5px 3px rgba(184, 50, 128, 0.68);
+    padding: 26px;
+    text-align: center;
+    background-color: rgba(155, 37, 37, 0.517);
+    color: white;
+}
+
+.Value {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    width: 60%;
+    margin: 16px auto; 
+    padding: 26px;
+    text-align: center;
+    size: 10; 
+}
+
+.Values {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 16px auto; 
+    border: 1px solid #eee;
+    box-shadow: 0 5px 3px #ccc;
+    padding: 26px;
+    text-align: center;
+    size: 10; 
+}
+
+.userOutput {
+    width: 60%;
+    margin: 16px auto; 
+    border: 1px solid #eee;
+    box-shadow: 0 5px 3px #ccc;
+    padding: 26px;
+    text-align: center;
+}
